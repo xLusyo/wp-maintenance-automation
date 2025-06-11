@@ -1,0 +1,21 @@
+{
+    "name": "wpma/wpma",
+    "description": "WordPress plugin that connects external webapp",
+    "type": "wordpress-plugin",
+    "require": {
+        "phpstan/phpstan": "^2.1",
+        "friendsofphp/php-cs-fixer": "^3.75"
+    },
+    "autoload": {
+        "psr-4": {
+            "WPMA\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Christian",
+            "email": "coding.lusyo@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
